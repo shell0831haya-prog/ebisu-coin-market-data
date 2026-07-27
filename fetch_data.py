@@ -69,16 +69,12 @@ def main():
         p.append(round(pv, 2))
         f_out.append(f)
 
-    OUTPUT.write_text(json.dumps(
-        {"dates": dates, "gold_usd": g, "silver_usd": s, "plat_usd": p, "fx": f_out}))
-
-    # サイト表示用の軽量版（直近45日だけ）。露出と転送量を最小にする
+    # 配信するのは直近45日分だけ（サイト表示に必要なのは前日比のみ。露出と転送量を最小にする）
     K = 45
-    (BASE / "lbma_latest.json").write_text(json.dumps(
+    OUTPUT.write_text(json.dumps(
         {"dates": dates[-K:], "gold_usd": g[-K:], "silver_usd": s[-K:],
          "plat_usd": p[-K:], "fx": f_out[-K:]}))
-
-    print(f"{len(dates)}日分（{dates[0]} 〜 {dates[-1]}）＋軽量版{K}日分を書き出しました")
+    print(f"取得{len(dates)}日分 → 直近{K}日分を書き出しました（{dates[-K]} 〜 {dates[-1]}）")
 
 
 if __name__ == "__main__":
