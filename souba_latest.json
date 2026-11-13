@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 17:46",
+ "updated": "2026-11-13 09:07",
  "tanaka_published": "2026-11-12 17:00",
  "tanaka": {
   "published": "2026-11-12 17:00",
@@ -15,15 +15,15 @@
  "items": {
   "silver_1oz": {
    "name": "ウィーン銀貨 1オンス",
-   "sell": 11100,
-   "buy_lo": 8400,
-   "buy_hi": 9000,
+   "sell": 10990,
+   "buy_lo": 8100,
+   "buy_hi": 8700,
    "buy_url": "https://www.ebisu-coin.com/?mode=f35",
    "sell_url": "https://www.ebisu-coin.com/?pid=189729958"
   },
   "gold_1oz": {
    "name": "ウィーン金貨 1オンス",
-   "sell": 752000,
+   "sell": 743500,
    "buy_lo": 672500,
    "buy_hi": 676500,
    "buy_url": "https://www.ebisu-coin.com/?mode=f35",
@@ -31,7 +31,7 @@
   },
   "gold_1_10": {
    "name": "ウィーン金貨 1/10オンス",
-   "sell": 81500,
+   "sell": 80600,
    "buy_lo": 66700,
    "buy_hi": 68700,
    "buy_url": "https://www.ebisu-coin.com/?mode=f35",
