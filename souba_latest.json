@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16 17:46",
+ "updated": "2026-11-17 09:10",
  "tanaka_published": "2026-11-16 17:00",
  "tanaka": {
   "published": "2026-11-16 17:00",
@@ -16,8 +16,8 @@
   "silver_1oz": {
    "name": "ウィーン銀貨 1オンス",
    "sell": 10570,
-   "buy_lo": 8000,
-   "buy_hi": 8600,
+   "buy_lo": 7600,
+   "buy_hi": 8200,
    "buy_url": "https://www.ebisu-coin.com/?mode=f35",
    "sell_url": "https://www.ebisu-coin.com/?pid=189729958"
   },
